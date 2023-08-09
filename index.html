@@ -55,12 +55,83 @@
               </li>
             </ul>
 
-            <button class="button-color text-white rounded border-0 px-4 py-2">
+            <button
+              type="button"
+              class="button-color text-white rounded border-0 px-4 py-2"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
               Free Consultation
             </button>
           </div>
         </div>
       </nav>
+
+      <!-- modal section start -->
+      <!-- Button trigger modal -->
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-4" id="exampleModalLabel">
+                Book Free Consultation
+              </h1>
+
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form role="search">
+                <input
+                  class="form-control accordion-bg py-3 rounded"
+                  type="search"
+                  placeholder="Enter Your Name"
+                  aria-label="Search"
+                />
+                <input
+                  class="form-control accordion-bg py-3 rounded my-3"
+                  type="search"
+                  placeholder="Enter Your Email"
+                  aria-label="Search"
+                />
+                <input
+                  class="form-control accordion-bg py-3 rounded"
+                  type="search"
+                  placeholder="Enter Your Phone Number"
+                  aria-label="Search"
+                />
+                <textarea
+                  class="form-control accordion-bg py-3 rounded my-3"
+                  name=""
+                  id=""
+                  cols="15"
+                  rows="5"
+                  placeholder="Message"
+                ></textarea>
+                <button
+                  class="button-color w-100 border-0 rounded text-white py-2"
+                  type="submit"
+                >
+                  Book Now
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- modal section end -->
 
       <!-- banner slider start -->
       <div id="carouselExample" class="carousel slide">
