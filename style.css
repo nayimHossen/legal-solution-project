@@ -12,3 +12,8 @@ body {
 .slider-height {
   height: 550px;
 }
+
+.legal-bg:hover {
+  background-color: rgb(245, 245, 245);
+  transition: 0.5s;
+}
