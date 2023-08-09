@@ -4,3 +4,11 @@
 body {
   font-family: "EB Garamond", serif;
 }
+
+.button-color {
+  background-color: #b68c5a;
+}
+
+.slider-height {
+  height: 550px;
+}
