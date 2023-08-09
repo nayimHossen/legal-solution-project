@@ -25,6 +25,21 @@ body {
   width: 500px;
 }
 
+.accordion-bg {
+  background-color: rgb(238, 238, 238);
+}
+
+.button-acc {
+  outline: none;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  text-align: start;
+  font-size: 24px;
+  color: #414040;
+  font-weight: bolder;
+}
+
 @media only screen and (max-width: 768px) {
   .section-margin {
     margin-bottom: 50px;
